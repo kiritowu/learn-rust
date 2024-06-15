@@ -1,8 +1,8 @@
 # Variables and Mutability
 
-- `let` declare variable that is immutable.
-- `let mut` declare variable that is mutable.
-- `const` declare constant that is immutable with compulsary type declaration.
+- `let` declare immutable variable.
+- `let mut` mutable variable.
+- `const` is immutable with compulsary type declaration.
 - `const` must be named with `UPPERCASE_DELIMITED_BY_UNDERSCORE`.
 - `const` can be declared as expression and some expression will be evaluated during compile time. 
 - Shadowing creates transformation of a variable, regardless of its immutability and datatype.
