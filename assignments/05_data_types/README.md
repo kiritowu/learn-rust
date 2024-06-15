@@ -12,8 +12,8 @@
         - Whether an integer can be negative (i) or always positive (u)
     - Datasize
         - 8-bit (8), 16-bit (16), 32-bit (32), 64-bit (64), 128-bit (128), arch (size)
-        - Each signed variant can store integer from -(2^{n-1}) to 2^{n-1}-1
-        - Each unsigned variante can store integer from 0 to 2^n-1
+        - Each signed variant can store integer from $-(2^{n-1})$ to $2^{n-1}-1$
+        - Each unsigned variante can store integer from $0$ to $2^n-1$
         - `size` variant decide datasize based on system architechture (i.e. 64-bit or 32-bit)
 - Integer literal allow type suffix such as 57u8 (i.e. 57 as unsigned 8-bit integer)
 - Integer literal allow `_` as visual seperator for easy reading such as 1_000 (i.e. 1000)
