@@ -50,9 +50,9 @@
         name
     }
     ```
-- Ownership in a nutshell:
-    1. All heap data must be owned by exactly one variable.
-    2. Rust deallocates heap data once its owner goes out of scope.
-    3. Ownership can be transferred by moves, which happens on assignments and function calls.
-    4. Heap data can only be accessed through its current owner, not a previous owner.
+## Ownership in a nutshell:
+1. All heap data must be owned by exactly one variable.
+2. Rust deallocates heap data once its owner goes out of scope.
+3. Ownership can be transferred by moves, which happens on assignments and function calls.
+4. Heap data can only be accessed through its current owner, not a previous owner.
 
